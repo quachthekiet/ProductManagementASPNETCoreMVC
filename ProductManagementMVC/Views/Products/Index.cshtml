@@ -4,11 +4,13 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Product list</h1>
 
-<p>
+<p style="display:flex; justify-content:space-between">
     <a asp-action="Create">Create New</a>
+    <a asp-controller="Account" asp-action="Logout">Logout</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
